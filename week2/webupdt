@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Home Page</title>
+
+  <!-- Week 2 updt -->
+  <meta name="description" content="My home page for WDD130, created by Janzent Caliso, showing personal info, state info, and course projects.">
+  <meta name="author" content="Janzent Caliso">
+
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Welcome to My Home Page</h1>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <h2>About Me</h2>
+    <p>Hello! My name is Janzent. This is my home page for the WDD130 course.</p>
+
+    <!-- Example profile image -->
+    <img src="profile.jpg" alt="My profile picture">
+  </main>
+
+  <!-- Aside (Week 2 updt) -->
+  <aside>
+    <h2>Philippines</h2>
+    <img src="philippines.jpg" alt="Philippines Landscape">
+    <p>The Philippines is an archipelago in Southeast Asia with beautiful beaches and rich culture.</p>
+  </aside>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Janzent G. Caliso</p>
+  </footer>
+
+</body>
+</html>
