@@ -1,0 +1,138 @@
+:root {
+  --primary-color: #1e5f74;
+  --secondary-color: #f7b267;
+  --accent1-color: #133b5c;
+  --accent2-color: #fefae0;
+
+  --heading-font: "Georgia", "Times New Roman", serif;
+  --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--body-font);
+  color: var(--accent1-color);
+  background-color: var(--accent2-color);
+}
+
+header,
+main,
+footer {
+  width: 840px;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+nav {
+  margin: 16px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
+  padding: 10px;
+}
+
+nav a {
+  color: var(--accent2-color);
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.socialmedia a {
+  text-decoration: none;
+}
+
+.socialmedia img {
+  width: 24px;
+  height: 24px;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+  padding: 16px;
+  background-color: var(--accent1-color);
+  color: white;
+  opacity: 0.85;
+}
+
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  max-width: 300px;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.hero article img {
+  float: right;
+  width: 150px;
+  height: auto;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.history-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+.adventure {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  text-align: center;
+}
+
+.adventure figure {
+  margin: 0;
+}
+
+.socialmedia {
+  display: flex;
+  gap: 10px;
+}
