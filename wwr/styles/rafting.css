@@ -33,17 +33,16 @@ h2 {
   color: var(--primary-color);
 }
 
-nav,
-p,
-section,
-article {
+nav {
   margin: 16px;
   padding: 8px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 150px 1fr;
   align-items: center;
   background-color: var(--primary-color);
   color: var(--accent2-color);
@@ -98,7 +97,8 @@ h1 {
 
 .hero article img {
   float: right;
-  width: 125px;
+  width: 150px;
+  height: auto;
   margin-left: 10px;
   border-radius: 5px;
 }
@@ -108,4 +108,31 @@ footer {
   background-color: var(--primary-color);
   color: var(--accent2-color);
   padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.history-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+.adventure {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  text-align: center;
+}
+
+.adventure figure {
+  margin: 0;
+}
+
+.socialmedia {
+  display: flex;
+  gap: 10px;
 }
